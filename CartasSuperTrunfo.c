@@ -1,24 +1,44 @@
 #include <stdio.h>
 
+#define SUPER_TRUNFO
+
 int main() {
     // Variávei para armazenar os nomes das cidades
     char estado;
     int codigo; // Ex. A01, A02...
     char cidade [50]; // Nome da cidade
-    int populacao; 
-    float area;
-    float pib;
+    int populacao; // em milhões
+    float area; // em km²
+    float pib; // em trilhões de reais
     int pontos_turisticos;
-    int num_cartas; // Números de cartas que será cadastradas
+    int num_cartas; //Número de cartas que será cadastradas
 
     printf("QUANTAS CARTAS DESEJA CADASTRAR? ");
-    scanf(%d , &num_cartas);
+    scanf("%d" , &num_cartas);
+    
 
-    for (int 1 = 0; 1 < num_cartas; 1++) {
-    printf("\n---CADASTRO DA CARTA %d---\n",1 + 1);
+ } Estado;
+     
+    void exibir_estado(Estado p) { 
+        printf("Digite a letra do estado (A-H): ");
+        printf("Cidade: %s\n",p.nome);
+        printf("População: %d milhões\n", p.populacao);
+        printf("Área: %d km²\n", p.area);
+        printf("PIB: %.2f trilhões de reais\n", p.pib);
+        printf("Pontos Turísticos: %s\n" p.pontos_turisticos);
+    }
 
-    // Coletando os dados da cidade:
-    printf("Digite a letra do estado (A-H):");
+        int main() {
+            Estados [SUPER_TRUNFO] = {
+                {"São Paulo", 213, 8515767, 1.84},
+                {"Rio de Janeiro", 83, 357022, 3.84},
+                {"Salvador" , 126, 377975, 4.87},
+                
+
+                }
+
+
+        
 
 
 
